@@ -1,0 +1,1 @@
+var GOL = angular.module("GOL", []);

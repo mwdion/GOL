@@ -1,0 +1,15 @@
+table.table.table-bordered {
+    width: 20em;
+    height: ;
+    text-align: center;
+    vertical-align: middle;
+    border: solid 1px #eee;
+}
+
+td.alive { 
+    background-color: green;
+
+
+}
+
+td.dead

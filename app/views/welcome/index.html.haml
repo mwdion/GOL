@@ -1,0 +1,12 @@
+%div{ ng: {controller: "IndexCtrl"}}
+  %h1
+    {{ title }}
+    %br
+    Height:
+    %input{"ng-model" => "height", :type => "text"}/
+    Width:
+    %input{"ng-model" => "width", :type => "text"}/
+    %button.btn{"ng-click" => "startLife()"} Start
+    %table.table.table-bordered
+      %tr{"ng-repeat" => "row in rows"}
+        %td{"ng-repeat" => "cell in row"}
